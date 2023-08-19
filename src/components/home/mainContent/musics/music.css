@@ -1,0 +1,63 @@
+.boxflex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.music .box {
+  margin-bottom: 30px;
+  margin-left: 2px;
+}
+.music .text {
+  padding: 0 30px;
+}
+.music .images {
+  width: 320px;
+  height: 220px;
+}
+.music img {
+  width: 320px;
+  height: 220px;
+  object-fit: cover;
+}
+.music h1 {
+  font-size: 22px;
+}
+@media screen and (max-width:1220px) {
+  .music img,
+  .music .images {
+    height:250px;
+  }
+  .music .text {
+    padding: 0 20px;
+  }
+}
+@media screen and (max-width:990px) {
+  .music img,
+  .music .images {
+    height:320px;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+  .music img,
+  .music .images {
+    height: 360px;
+    padding: 20px 0px;
+  }
+  .music .text {
+    padding: 0 10px;
+  }
+}
+@media screen and (max-width:750px) {
+.boxflex{
+  display: block;
+}
+.music img,
+  .music .images {
+    height: 360px;
+    width:87vw;
+    padding: 20px 0px;
+  }
+}
+
